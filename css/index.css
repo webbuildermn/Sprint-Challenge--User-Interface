@@ -174,3 +174,26 @@ header nav a{
 #box8{background:hotpink}
 #box9{background:indigo}
 #box10{background:dodgerblue}
+
+/* About Page specific (at least for meow) */
+.middle-about{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.middle-container{
+    /* border: 1px grey solid; */
+    width:48%;    
+}
+.middle-container .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  }
+
+    .middle-container img, .middle-container button{
+        margin:20px 0;
+    }
+
+.bottom-content-about{
+    margin: 30px 0;
+}
