@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It is using as specific as possible vs generic HTML tags to convey as much meaning as possible about the layout and structure of the website to users (for example future developers) as well as machines (for example for SEO or accessibility purposes). An illustration of this is using nav tags instead of div tags, or pretty much anything instead of div tags when possible, although div tags still have a place and are often approprite.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display: block; always starts a new line/row on the page (adds a line break) whereas display: inline; does not. Display: inline; also inherits the height of parent and takes up only as much width as necessary whereas display: block; enables width and height control. 
 
 3. What are the 4 areas of the box model?
 
+Margin is outermost- it is how much space is between said element and other elements. Border is next outermost- it is any border you give it- default is none. Padding is next. It is how much space or cushion is between border and content. Content is innermost area of box and generally takes up most space/has the largest dimensions. It is affected by things such as font-size or image size and amount of characters. 
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+align-items works on the cross axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git enables distributed version control. Version control means each person can work on a segment of code and merge their branches together without disruption. They can compartmentalize. They can also easily track changes and rollback to previous commits when necessary for restoring working code. They can work remotely and don't have to exchange code updates via old fashioned means such as email. There are many reasons but version control is the term that describes it best. It is pretty much a necessity now with large teams working on the same project. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

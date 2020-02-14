@@ -110,6 +110,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 .bottom-content {
@@ -144,3 +146,124 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* My code goes here */
+
+header nav{
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+margin: 20px 0;
+}
+
+header nav a{
+    text-decoration: none;
+    color:black;
+}
+
+#banner-img {
+    margin:20px 0 20px 0;
+}
+
+/* Thank you Find and Replace!! */
+#box1{background:teal;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+
+}
+
+#box2{background:gold;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-iteration-count: 4;
+}
+#box3{background:cadetblue;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-iteration-count: 4;
+}
+#box4{background:coral;
+    animation-duration: 2s;
+    animation-delay:3s;
+    animation-iteration-count: 4;
+}
+#box5{background:crimson;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 4;
+
+}
+
+#box6{background:forestgreen;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 4;
+}
+#box7{background:darkorchid;
+    animation-duration: 2s;
+    animation-delay:3s;
+    animation-iteration-count: 4;
+}
+#box8{background:hotpink;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-iteration-count: 4;
+}
+#box9{background:indigo;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-iteration-count: 4;
+}
+#box10{background:dodgerblue;
+    animation-duration: 2s;
+    animation-delay:0s;
+    animation-iteration-count: 4;
+}
+
+/* About Page specific (at least for meow) */
+.middle-about{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.middle-container{
+    /* border: 1px grey solid; */
+    width:48%;    
+    margin: 0 15px 0 0 ;
+    padding: 1%;
+}
+
+    .middle-container img, .middle-container button{
+        margin:20px 0;
+    }
+
+.top-content-about, .middle-about, .bottom-content-about{
+
+    width:97%;
+    margin:25px auto;
+ 
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
+ .middle-about img{
+     animation-name: fadeIn;
+     animation-duration: 2s;
+ }
+
+ @keyframes fadeInFinally{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .boxes{
+     animation-name: fadeInFinally;
+     animation-duration: 4s;
+     animation-delay: 11s;
+ }
