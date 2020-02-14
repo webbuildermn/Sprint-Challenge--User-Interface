@@ -144,3 +144,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* My code goes here */
+
+header nav{
+display:flex;
+justify-content:space-between;
+align-items:flex-end;
+margin: 20px 0;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+#banner-img {
+    margin:20px 0 20px 0;
+}
