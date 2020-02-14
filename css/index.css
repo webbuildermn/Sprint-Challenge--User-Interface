@@ -157,6 +157,7 @@ margin: 20px 0;
 
 header nav a{
     text-decoration: none;
+    color:black;
 }
 
 #banner-img {
@@ -184,16 +185,17 @@ header nav a{
 .middle-container{
     /* border: 1px grey solid; */
     width:48%;    
+    margin: 0 15px 0 0 ;
+    padding: 1%;
 }
-.middle-container .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  }
 
     .middle-container img, .middle-container button{
         margin:20px 0;
     }
 
-.bottom-content-about{
-    margin: 30px 0;
+.top-content-about, .middle-about, .bottom-content-about{
+
+    width:97%;
+    margin:30px auto;
+ 
 }
