@@ -256,3 +256,14 @@ header nav a{
      animation-name: fadeIn;
      animation-duration: 2s;
  }
+
+ @keyframes fadeInFinally{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .boxes{
+     animation-name: fadeInFinally;
+     animation-duration: 2s;
+     animation-delay: 11s;
+ }
