@@ -264,6 +264,6 @@ header nav a{
 
  .boxes{
      animation-name: fadeInFinally;
-     animation-duration: 2s;
+     animation-duration: 4s;
      animation-delay: 11s;
  }
