@@ -38,7 +38,7 @@ It is using as specific as possible vs generic HTML tags to convey as much meani
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-display:block always starts a new line/row on the page (adds a line break) whereas display:inline does not. Display:inline also inherits the height of parent and takes up only as much width as necessary whereas display block does not- i.e. you can set height and width. 
+display:block; always starts a new line/row on the page (adds a line break) whereas display:inline; does not. Display:inline; also inherits the height of parent and takes up only as much width as necessary whereas display:block; enables width and height control. 
 
 3. What are the 4 areas of the box model?
 
